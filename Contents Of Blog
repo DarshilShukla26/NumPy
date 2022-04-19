@@ -1,0 +1,104 @@
+Blog on Site- https://darshilblogs.wordpress.com/
+20CE116-Mayan Prajapati
+20CE134-Shail Shah
+20CE137-Darshil Shukla
+NumPy
+
+NumPy (Numerical Python) is an open-source Python library that’s used in almost every field of science and engineering. It’s the universal standard for working with numerical data in Python, and it’s at the core of the scientific Python and PyData ecosystems. NumPy users include everyone from beginning coders to experienced researchers doing state-of-the-art scientific and industrial research and development. The NumPy API is used extensively in Pandas, SciPy, Matplotlib, scikit-learn, scikit-image and most other data science and scientific Python packages.
+The NumPy library contains multidimensional array and matrix data structures (you’ll find more information about this in later sections). It provides ndarray, a homogeneous n-dimensional array object, with methods to efficiently operate on it. NumPy can be used to perform a wide variety of mathematical operations on arrays. It adds powerful data structures to Python that guarantee efficient calculations with arrays and matrices and it supplies an enormous library of high-level mathematical functions that operate on these arrays and matrices.
+
+What are NumPy Arrays?
+NumPy is a Python package that stands for ‘Numerical Python’. It is the core library for scientific computing, which contains a powerful n-dimensional array object.
+Where is NumPy used?
+Python NumPy arrays provide tools for integrating C, C++, etc. It is also useful in linear algebra, random number capability etc. NumPy array can also be used as an efficient multi-dimensional container for generic data. Now, let me tell you what exactly is a Python NumPy array.
+Python NumPy Array: NumPy array is a powerful N-dimensional array object which is in the form of rows and columns. We can initialize NumPy arrays from nested Python lists and access it elements. In order to perform these NumPy operations, the next question which will come in your mind is:
+Why is NumPy Faster Than Lists?
+NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+This behaviour is called locality of reference in computer science.
+This is the main reason why NumPy is faster than lists. also it is optimized to work with latest CPU architectures.
+What’s the difference between a Python list and a NumPy array?
+NumPy gives you an enormous range of fast and efficient ways of creating arrays and manipulating numerical data inside them. While a Python list can contain different data types within a single list, all of the elements in a NumPy array should be homogeneous. The mathematical operations that are meant to be performed on arrays would be extremely inefficient if the arrays weren’t homogeneous.
+Why use NumPy?
+NumPy arrays are faster and more compact than Python lists. An array consumes less memory and is convenient to use. NumPy uses much less memory to store data and it provides a mechanism of specifying the data types. This allows the code to be optimized even further.
+What is an array?
+An array is a central data structure of the NumPy library. An array is a grid of values and it contains information about the raw data, how to locate an element, and how to interpret an element. It has a grid of elements that can be indexed in various ways. The elements are all of the same type, referred to as the array dtype.
+An array can be indexed by a tuple of nonnegative integers, by booleans, by another array, or by integers. The rank of the array is the number of dimensions. The shape of the array is a tuple of integers giving the size of the array along each dimension.
+One way we can initialize NumPy arrays is from Python lists, using nested lists for two- or higher-dimensional data.
+
+Getting Started with NumPy
+
+How do I install NumPy?
+To install Python NumPy, go to your command prompt and type “pip install numpy”. Once the installation is completed, go to your IDE (For example: PyCharm) and simply import it by typing: “import numpy as np”
+ 
+ 
+ 
+Installing Jupyter and Jupyter Notebook
+ 
+ 
+This command will open the live server in your default browser, however you can always access the server using links generated in the terminal.
+ 
+1. Creating array using NumPy
+NumPy is used to work with arrays. The array object in NumPy is called ndarray.
+We can create a NumPy ndarray object by using the array() function.
+Example:
+ 
+type(): This built-in Python function tells us the type of the object passed to it. Like in above code it shows that arr is numpy.ndarray type.
+
+2. NumPy Array Indexing
+Array indexing is the same as accessing an array element.
+You can access an array element by referring to its index number.
+The indexes in NumPy arrays start with 0, meaning that the first element has index 0, and the second has index 1 etc.
+Example
+ 
+We took 2nd and 3rd element of the array and added them to display the output.
+
+Access 2-D Arrays
+To access elements from 2-D arrays we can use comma separated integers representing the dimension and the index of the element.
+For Example:
+ 
+We accessed the 5th element of 2nd Dimension.
+3. NumPy Array Slicing
+Slicing in python means taking elements from one given index to another given index.
+We pass slice instead of index like this: [start:end].
+We can also define the step, like this: [start:end:step].
+If we don’t pass start its considered 0
+If we don’t pass end its considered length of array in that dimension
+If we don’t pass step its considered 1.
+Example
+ 
+Slice elements from index 1 to index 5 from the following array
+Negative Slicing
+Use the minus operator to refer to an index from the end:
+Example:
+ 
+Slice from the index 3 from the end to index 1 from the end
+4. NumPy Array Shape
+NumPy arrays have an attribute called shape that returns a tuple with each index having the number of corresponding elements.
+Example
+ 
+Shape of 2d Array.
+5. NumPy Array Reshaping
+Reshaping means changing the shape of an array.
+The shape of an array is the number of elements in each dimension.
+By reshaping we can add or remove dimensions or change number of elements in each dimension.
+Reshape From 1-D to 2-D
+Example
+ 
+We converted the 1D array with 12 elements to a 2D array.
+The required dimension was 4x3.
+Reshape From 1-D to 3-D
+Example
+ 
+Converted the given 1D array with 12 elements to 3D array with dimension 2x3x2.
+References:
+1)	https://numpy.org/doc/stable/user/absolute_beginners.html (Official Site Docs)
+2)	https://medium.com/analytics-vidhya/introduction-to-numpy-82321478e788 (Blog Reference)
+3)	https://youtu.be/Rbh1rieb3zc (CodeWithHarry)
+--------------------------------------------------------------------------------------------------------------------------
+So that was pretty much everything there is to discuss about NumPy.
+Feel free to drop any query on this blog’s comment section OR
+You can reach us 
+20CE116@charusat.edu.in (Mayan Prajapati)
+20CE134@charusat.edu.in (Shail Shah)
+20CE137@charusat.edu.in (Darshil Shukla)
+Thanks For Visiting!!
